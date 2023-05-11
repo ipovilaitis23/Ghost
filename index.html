@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghost page</title>
+    <link rel="stylesheet" href="styles.css">    
+</head>
+<body>
+    <div class="navigation">
+        <ul>
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#media">Media</a></li>
+        <li><a href="#tickets">Tickets</a></li>
+        <li><a href="#map">Map of Venue</a></li>
+        <li><a href="#mailinglist">Mailing List</a></li>
+        </ul>
+    </div>
+    <main>
+    <div id="home" class="intro">
+    <h1>Ghost</h1>
+    <h2>Vilnius, Lithuania, 2023</h2>
+    <img class="intro-image" width="900" height="600" src="images/ghost1.jpg" alt="Papa Emeritus IV">
+    <p class="paragraph1">Swedish rock band <b>Ghost</b> is finally coming to Lithuania! Don't miss out on this unique chance to see them live in Vilnius in 2023!</p><br>
+        <h2 id="about">What is Ghost?</h2>
+        <p class="description">
+        Ghost is a Swedish rock band, formed in 2006 by frontman Tobias Forge. Initially, the identity of the band and especially its frontman was kept secret - while other members of the band would wear black hooded robes and be called "Nameless Ghouls", Forge would go by "Papa Emeritus", dressed in Papal regalia and his face painted to resemble a skull. The band is known for its theatrical appearance and performances. At the end of every album cycle, the current frontman, or 'Papa', is replaced by a successor. Today, the band is fronted by Papa Emeritus IV.<br>Anonymity is a major characteristic of Ghost; prior to 2017, the members had not publicly revealed their names, and the group's five instrumentalists are only referred to as "Nameless Ghouls". In 2017, due to a lawsuit involving former band members, Tobias Forge publicly revealed himself as the frontman of the band for the first time. <br><br>To date, the band has released four full-length albums: <em>Opus Eponymous</em> in 2010, <em>Infestissumam</em> in 2013, <em>Meliora</em> in 2015, <em>Prequelle</em> in 2018 and <em>Impera</em> in 2022. The band's sound is best described as hard rock with a very notable Swedish pop music influence (Forge's favorite band is ABBA for good reason).
+    </div>
+    <br>
+    <div class="media">
+        <p >
+            Here's a few moments of Ghost in concert and music videos:
+        </p>
+        </div>
+        <div id="media">
+            <video src="videos/vid1.mp4" controls height="350" width="350" muted loop>
+            </video>
+            <video src="videos/vid2.mp4" controls height="350" width="350" muted loop>
+            </video>
+            <video src="videos/vid3.mp4" controls height="350" width="350" muted loop>
+            </video>
+            <img width="350" height="300" src="images/ghost2.gif" alt="ghost2">
+            <img width="350" height="300" src="images/ghost3.gif" alt="ghost3">
+    </div>
+    <div class="audio">
+        <p>Interested in hearing some <span class="ghost">Ghost</span>? Here's a couple of song snippets: </p>
+        <audio controls src="audio/ghost1.mp3"></audio>
+        <audio controls src="audio/ghost2.mp3"></audio>
+        <audio controls src="audio/ghost3.mp3"></audio>
+    </div>
+    <div id="tickets" class="tickets">
+        <p>Like what you hear? Click<a target="_blank" href="https://ghost-official.com/#tour"><span class="ticket-link"> here</span></a> to buy tickets to the show.</p>
+    </div>
+    <div id="map" class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9178.840572519483!2d23.914568!3d54.890457!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46e72271d0b1c3e1%3A0xff421580fc4b8b14!2s%C5%BDalgirio%20arena!5e0!3m2!1slt!2slt!4v1683831047658!5m2!1slt!2slt" width="600" height="450" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div id="mailinglist" class="mailinglist">
+        <p>Subscribe to our mailing list!</p>
+        <form action="#">
+            <label for="fname"></label>
+            <input type="text" id="fname" name="fname" placeholder="Name" autocomplete="off" required>
+            <label for="lname"></label>
+            <input type="text" id="lname" name="lname" placeholder="Last name" required autocomplete="off">
+            <label for="country"></label>
+            <input type="text" id="country" name="country" placeholder="Lithuania" required autocmoplete="off">
+            <label for="email"></label>
+            <input type="email" name="email" id="email" placeholder="vardenis@pavardenis.lt" autocomplete="off" required>
+            <input type="submit">
+        </form>
+        </div>
+</main>
+</body>
+</html>

@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Almendra');
+html {
+    padding: 0;
+    margin: 0;
+    min-width: 100%;
+    min-height: 100%;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Ghost_au_Hellfest_2022.jpg/1024px-Ghost_au_Hellfest_2022.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+body {
+    margin-left: -10px;
+}
+main {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+ul {
+    list-style-type: none;
+    margin-top: -10px;
+    margin-right: -20px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Almendra', sans-serif;
+}
+li a:hover {
+    background-color: #111;
+}
+h1 {
+    color: white;
+    font-family: 'Almendra', sans-serif;
+    text-align: center;
+    font-size: 4em;
+}
+.intro {
+    margin-top: 700px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    background: rgb(0, 0, 0, 0.7) ;
+    max-width: 100%;
+    min-width: 100%;
+    text-align: center;
+    border-top: 5px solid rgb(175, 141, 141);
+    border-bottom: 5px solid rgb(175, 141, 141);
+    border-radius: 5px;
+}
+h2 {
+    color: white;
+    font-family:'Almendra';
+    text-align: center;
+}
+.paragraph1 {
+    color: white;
+    font-family: 'Almendra';
+    text-align: center;
+    margin-left: 0;
+}
+.intro-image {
+    border: 5px ridge white;
+}
+.img1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+.description {
+    color: white;
+    font-family: 'Almendra';
+    text-align: left;
+    margin: 20px;
+}
+#media {
+    text-align: center;
+    display: inline;
+    margin-left: 20px;
+}
+#media::img {
+    vertical-align: baseline;
+}
+.media {
+background: rgb(0, 0, 0, 0.7);
+text-align: center;
+color: white;
+font-family: 'Almendra';
+border: 3px inset white;
+border-radius: 5px;
+margin-right: -30px;
+}
+.ghost {
+    font-family: 'Almendra';
+}
+.audio {
+    padding: 20px;
+    height: 260px;
+    width: 500px;
+    box-sizing: border-box;
+    border: 3px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0.7);
+    margin: auto;
+    margin-top: 35px;
+}
+.ticket-link {
+    font-size: 2em;
+}
+.tickets {
+    font-family: 'Almendra';
+    height: 45px;
+    margin: auto;
+    margin-top: 30px;
+    padding-bottom: 60px;
+    width: 300px;
+    border: 3px solid white;
+    text-align: center;
+    background:rgb(0, 0, 0, 0.7);
+    color: white;
+}
+.map {
+    height: 450px;
+    width: 600px;
+    margin: auto;
+    margin-top: 40px;
+    border: 2px solid white;
+}
+.mailinglist {
+    text-align: center;
+    background: rgb(128, 128, 128, 0.7);
+    margin-top: 30px;
+    margin-right: -30px;
+    margin-bottom: -10px;
+    overflow: hidden;
+    padding: 0 0 20px 0;
+    border-top: 3px inset rgb(0, 0, 0);
+    font-family: 'Almendra';
+    border-radius: 3px;
+}
+input {
+    background: none;
+     border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    border-bottom: 1px solid grey;
+    padding: 5px;
+    font-size: 1.1em;
+    padding-left: 0;
+    font-family: 'Almendra'
+}
+input[type="submit"] {
+    background: rgb(0, 0, 0);
+    color: white;
+    width: 120px;
+    border-radius: 20px;
+}
+a {
+    color: white;
+}
